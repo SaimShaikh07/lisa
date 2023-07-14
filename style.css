@@ -1,0 +1,107 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.res {
+  text-align: center;
+  margin-top: 5%;
+  
+}
+
+.res a {
+  font-size: 30px;
+}
+
+body{
+  background-image: url(images/4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white !important;
+  
+}
+
+.navbar-toggler-icon{
+  background-color: rgba(245, 222, 179, 0.596) !important;
+  border-radius: 7%;
+}
+
+.navbar-brand{
+  color: white !important;
+}
+
+.container-fluid p{
+  
+  margin: 5vw;
+  color: pink;
+  text-shadow: 0 0 10px pink;
+  
+
+}
+
+
+.text-center{
+  color: white;
+}
+
+label{
+  color: white;
+}
+
+.list-unstyled a{
+  text-decoration: none;
+}
+
+
+.navbar-nav{
+  margin-left: 70%;
+}
+
+.navbar-brand{
+  margin-left: 7%;
+}
+
+
+.move-up {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+.move-up.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.animated-paragraph {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.4s ease-out, transform 0.4s ease-out;
+}
+
+.animated-paragraph.animate {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+ul a{
+
+ font-weight: lighter;
+ color: gray;
+}
+
+ 
+
+
+
+address{
+  
+  color: gray;
+  font-weight: lighter;
+  
+}
